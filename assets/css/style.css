@@ -14425,11 +14425,16 @@ figcaption {
   font-size: 16px;
 }
 
+.curriculum-vitae .cv{
+  color: #3c3e41;
+}
+
 .slide.slider-style-3 .slider-wrapper .slider-info .user-info-bottom {
   border-radius: 0 0 10px 10px;
   margin-top: 30px;
   padding: 35px;
   box-shadow: var(--shadow-1);
+  background: var(--gradient-box-w);
 }
 
 @media only screen and (max-width: 479px) {
@@ -14450,6 +14455,10 @@ figcaption {
   .button-wrapper {
   margin-top: 30px;
 }
+
+  .button-wrapper {
+    margin-top: 15px;
+  }
 
 @media only screen and (max-width: 767px) {
   .slide.slider-style-3
@@ -22591,7 +22600,9 @@ body.white-version .rn-btn-ulderline {
   .slider-info
   .user-info-bottom {
   box-shadow: var(--shadow-white-3);
+   background: var(--gradient-box-w);
 }
+
 
 .white-version a.rn-btn {
   background: var(--gradient-box-w);
